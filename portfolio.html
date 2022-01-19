@@ -12,9 +12,10 @@
 </head>
 <body>
 <!--шапка сайта-->
-<div class="container">
+
 
     <header class="main-nav">
+        <div class="container header-container">
         <a href="/" class="logo">
             <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
         </a>
@@ -29,83 +30,102 @@
             <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
             <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-
+        </div>
     </header>
 
-</div>
+
 <!--Основная часть сайта-->
 <main>
     <!-- Фильтры -->
-<div class="filtrs">
-    <button type="button" class="button-portfolio">Все</button>
-    <button type="button" class="button-portfolio">Веб-сайты</button>
-    <button type="button" class="button-portfolio">Приложения</button>
-    <button type="button" class="button-portfolio">Дизайн</button>
-    <button type="button" class="button-portfolio">Маркетинг</button>
+    <section>
+<div class="container">
+<ul class="filtrs">
+    <li class="filtrs-btn">
+    <button type="button" class="button-portfolio">Все</button></li>
+    <li class="filtrs-btn">
+    <button type="button" class="button-portfolio">Веб-сайты</button></li>
+    <li class="filtrs-btn">
+    <button type="button" class="button-portfolio">Приложения</button></li>
+    <li class="filtrs-btn">
+    <button type="button" class="button-portfolio">Дизайн</button></li>
+    <li class="filtrs-btn">
+    <button type="button" class="button-portfolio">Маркетинг</button></li>
+</ul>
 </div>
+</section>
 <!-- Список проектов -->
 
 <section>
+    
 <div class="container">
     <h1 class="visually-hidden">Наши проекты</h1>
     <ul class="project-list list">
         <li class="element">
             <a>
             <img src="./image/picter1.jpg" alt="монитор с изображением фото команды" width="370" />
-        <h2 class="title">Технокряк</h2>
+        <div class="element-descr"><h2 class="title">Технокряк</h2>
         <p class="text">Веб-сайт</p>
+        </div>
         </a>
         </li>
         <li class="element">
             <a>
         <img src="./image/picture2.jpg" alt="картинка с изображением баскетбольных игроков" width="370" />
-        <h2 class="title">Постер New Orlean vs Golden Star</h2>
+        <div class="element-descr"><h2 class="title">Постер New Orlean vs Golden Star</h2>
         <p class="text">Дизайн</p>
+        </div>
             </a>
         </li>
         <li class="element">
             <a>
             <img src="./image/picture3.jpg" alt="логотип рыбного ресторана" width="370" />
-        <h2 class="title">Ресторан Seafood</h2>
+        <div class="element-descr"><h2 class="title">Ресторан Seafood</h2>
         <p class="text">Приложение</p>
+        </div>
         </a>
         </li>
                <li class="element">
                 <a>
                     <img src="./image/picture4.jpg" alt="изображение наушников" width="370" />
-        <h2 class="title">Проект Prime</h2>
+        <div class="element-descr"><h2 class="title">Проект Prime</h2>
         <p class="text">Маркетинг</p>
+        </div>
                 </a>
         </li>
         
         <li class="element"><a>
             <img src="./image/picture5.jpg" alt="две коробки разного размера" width="370" />
-        <h2 class="title">Проект Boxes</h2>
+        <div class="element-descr">
+            <h2 class="title">Проект Boxes</h2>
         <p class="text">Приложение</p>
+        </div>
         </a>
         </li>
         
         <li class="element"><a><img src="./image/picture6.jpg" alt="монитор" width="370" />
-        <h2 class="title">Inspiration has no Borders</h2>
+        <div class="element-descr"><h2 class="title">Inspiration has no Borders</h2>
         <p class="text">Веб-сайт</p>
+        </div>
         </a>
         </li>
         
         <li class="element"><a><img src="./image/picture7.jpg" alt="разворот журнала" width="370" />
-        <h2 class="title">Издание Limited Edition</h2>
+        <div class="element-descr"><h2 class="title">Издание Limited Edition</h2>
         <p class="text">Дизайн</p>
+        </div>
         </a>
         </li>
         
         <li class="element"><a><img src="./image/picture8.jpg" alt="лейба" width="370" />
-        <h2 class="title">Проект LAB</h2>
+        <div class="element-descr"><h2 class="title">Проект LAB</h2>
         <p class="text">Маркетинг</p>
+        </div>
        </a>
     </li>
     
         <li class="element"><a><img src="./image/picture9.jpg" alt="ноутбук" width="370" />
-        <h2 class="title">Growing Business</h2>
-        <p class="text">Приложение</p>
+        <div class="element-descr"><h2 class="title">Growing Business</h2>
+        <p class="text">Приложение</p></div>
        </a>
         </li>
     </ul>

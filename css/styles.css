@@ -52,13 +52,17 @@ img {
   padding-left: 15px;
   /* margin-bottom: 94px; */
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .main-nav {
   display: flex;
   align-items: center;
-  /* margin-bottom: 94px; */
 }
 .site-nav {
   display: flex;
+  align-items: center;
   /* margin-left: 93px; */
 }
 /* .site-nav .item {
@@ -75,12 +79,12 @@ img {
   line-height: 1.19;
   text-decoration: none;
   margin-right: 90px;
+  /* margin-bottom: 25px; */
 }
 
 .logo-web {
   color: var(--accent-color);
-  margin-bottom: 30px;
-  display: block;
+  /* margin-bottom: 30px; */
 }
 .logo-studio {
   color: var(--title-text-color);
@@ -232,7 +236,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   border: 1px solid transparent;
-  margin-left: 8px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -285,14 +288,14 @@ footer {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-.logo-fut {
+.logo-foot {
+  display: block;
+  margin-bottom: 20px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  display: block;
-  margin-bottom: 20px;
 }
 .auth-footer .link {
   color: rgba(255, 255, 255, 0.6);
@@ -315,6 +318,9 @@ footer {
   font-style: normal;
   margin-bottom: 9px;
 }
+.auth-footer .contact:not(:last-child) {
+  margin-bottom: 9px;
+}
 
 /* Портфолио */
 
@@ -329,13 +335,13 @@ text-decoration: none;
 .filtrs {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+
   /* background-color: green; */
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
+
   margin-bottom: 50px;
+}
+.filtrs .filtrs-btn:not(:last-child) {
+  margin-right: 8px;
 }
 
 .project-list .text {
@@ -364,6 +370,16 @@ text-decoration: none;
   margin: 15px;
   width: 370px;
   /* background-color: chartreuse; */
+}
+.element .element-descr {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  margin-bottom: 94px;
 }
 /* .element:nth-child(3n) {
   margin-right: 0; */
