@@ -26,6 +26,19 @@ body {
   padding: 0;
   margin: 0;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -146,8 +159,11 @@ img {
   line-height: 1.36;
 
   text-transform: uppercase;
-  margin-top: 0;
+
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Section */
 .section-title {
@@ -189,9 +205,11 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primare-text-color);
+}
+.features-list .descr {
   width: 270px;
 }
-.features-list .text:not(:last-child) {
+.features-list .descr:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -246,19 +264,20 @@ img {
 /* Our team */
 .section-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 .team-list .member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .team-list .text {
   font-weight: 400;
@@ -271,6 +290,9 @@ img {
   /* padding-top: 186px;
   padding-bottom: 94px; */
   width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list .item:not(:last-child) {
   margin-right: 30px;
@@ -279,9 +301,7 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.section-team {
-  padding-top: 94px;
-}
+
 /* Футер */
 footer {
   background-color: #2f303a;
@@ -357,12 +377,14 @@ text-decoration: none;
   font-size: 18px;
   line-height: 2;
   text-decoration: none;
+  margin-bottom: 4px;
 }
 .project-list {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
   /* background-color: chocolate; */
+  margin-bottom: 94px;
 }
 .element {
   /* width: calc((100%-60px) / 3); */
@@ -379,7 +401,6 @@ text-decoration: none;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  margin-bottom: 94px;
 }
 /* .element:nth-child(3n) {
   margin-right: 0; */
