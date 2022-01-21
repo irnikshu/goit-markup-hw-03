@@ -350,7 +350,11 @@ font-size: 18px;
 line-height: 2.0;
 text-decoration: none;
 } */
-
+.section-portfolio {
+  padding-top: 94px;
+  /* margin-top: 94px; */
+  padding-bottom: 94px;
+}
 .filtrs {
   display: flex;
   justify-content: center;
@@ -383,7 +387,7 @@ text-decoration: none;
   flex-wrap: wrap;
   margin: -15px;
   /* background-color: chocolate; */
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .element {
   /* width: calc((100%-60px) / 3); */
